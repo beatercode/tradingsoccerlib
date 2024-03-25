@@ -1,6 +1,6 @@
 {
   "name": "tradingsoccerlib",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "tradingsoccerlib",
   "main": "./dist/index.cjs",
   "module": "./dist/index.esm.js",
@@ -45,6 +45,8 @@
     "build-core": "npm run build-esm && npm run build-cjs && npm run build-umd",
     "build-dts": "dts-bundle-generator --no-banner true --fail-on-class true --umd-module-name tradingsoccerlib -o dist/index.d.ts src/index.ts",
     "build": "npm run clean && npm run build-core && npm run build-dts",
+    "dist:build": "npm run build && npm version patch --force && git add . && git commit -m 'bump version' && git push",
+    "dist": "npm version patch --force && git add . && git commit -m 'bump version' && git push",
     "prepare": "husky install"
   },
   "engines": {
