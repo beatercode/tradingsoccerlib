@@ -2,7 +2,6 @@
 /.idea
 /.vscode
 /website
-/dist
 /types
 
 /package-lock.json
