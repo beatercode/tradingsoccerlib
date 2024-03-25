@@ -1,6 +1,6 @@
 {
   "name": "tradingsoccerlib",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "tradingsoccerlib",
   "main": "./dist/index.cjs",
   "module": "./dist/index.esm.js",
@@ -10,8 +10,7 @@
   "files": [
     "LICENSE",
     "README.md",
-    "licenses/",
-    "NOTICE"
+    "dist/"
   ],
   "repository": {
     "type": "git",
