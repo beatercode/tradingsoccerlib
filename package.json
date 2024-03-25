@@ -1,10 +1,10 @@
 {
-  "name": "tradingsoccer-lib",
+  "name": "tradingsoccerlib",
   "version": "0.1.1",
-  "description": "tradingsoccer-lib",
+  "description": "tradingsoccerlib",
   "main": "./dist/index.cjs",
   "module": "./dist/index.esm.js",
-  "unpkg": "./dist/umd/tradingsoccer-lib.min.js",
+  "unpkg": "./dist/umd/tradingsoccerlib.min.js",
   "types": "./dist/index.d.ts",
   "type": "module",
   "files": [
@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/beatercode/tradingsoccer-lib"
+    "url": "https://github.com/beatercode/tradingsoccerlib"
   },
   "bugs": {
-    "url": "https://github.com/beatercode/tradingsoccer-lib/issues"
+    "url": "https://github.com/beatercode/tradingsoccerlib/issues"
   },
-  "homepage": "https://github.com/beatercode/tradingsoccer-lib",
+  "homepage": "https://github.com/beatercode/tradingsoccerlib",
   "keywords": [
     "time-line",
     "candlestick",
@@ -43,7 +43,7 @@
     "build-umd:prod": "cross-env NODE_ENV=production node scripts/build-umd.js",
     "build-umd": "npm run build-umd:dev && npm run build-umd:prod",
     "build-core": "npm run build-esm && npm run build-cjs && npm run build-umd",
-    "build-dts": "dts-bundle-generator --no-banner true --fail-on-class true --umd-module-name tradingsoccer-lib -o dist/index.d.ts src/index.ts",
+    "build-dts": "dts-bundle-generator --no-banner true --fail-on-class true --umd-module-name tradingsoccerlib -o dist/index.d.ts src/index.ts",
     "build": "npm run clean && npm run build-core && npm run build-dts",
     "prepare": "husky install"
   },

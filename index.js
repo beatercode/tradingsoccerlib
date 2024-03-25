@@ -13,7 +13,7 @@
  */
 
 if (process.env.NODE_ENV === "production") {
-  module.exports = require("./umd/tradingsoccer-lib.min.js");
+  module.exports = require("./umd/tradingsoccerlib.min.js");
 } else {
-  module.exports = require("./umd/tradingsoccer-lib.js");
+  module.exports = require("./umd/tradingsoccerlib.js");
 }
