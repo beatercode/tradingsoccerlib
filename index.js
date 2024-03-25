@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-if (process.env.NODE_ENV === 'production') {
-  module.exports = require('./umd/klinecharts.min.js')
+if (process.env.NODE_ENV === "production") {
+  module.exports = require("./umd/tradingsoccer-lib.min.js");
 } else {
-  module.exports = require('./umd/klinecharts.js')
+  module.exports = require("./umd/tradingsoccer-lib.js");
 }
