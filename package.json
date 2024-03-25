@@ -1,6 +1,6 @@
 {
   "name": "tradingsoccerlib",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "tradingsoccerlib",
   "main": "./dist/index.cjs",
   "module": "./dist/index.esm.js",
